@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Demo
+Bundle-SymbolicName: org.handrianj.corrie.demo;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.handrianj.demo.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.rap.ui.workbench,
+ org.handrianj.corrie.editors.util,
+ org.handrianj.corrie.serviceregistry
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
